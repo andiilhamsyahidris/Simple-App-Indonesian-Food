@@ -1,0 +1,74 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="LayoutTable">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">8dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="LayoutButton">
+        <item name="android:layout_width">55dp</item>
+        <item name="android:layout_height">55dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:background">@drawable/elipse1</item>
+    </style>
+    <style name="LayoutImage">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+    </style>
+    <style name="LayoutImageParentActivity">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+    </style>
+    <style name="LayoutCardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+    <style name="LayoutImageFood">
+        <item name="android:layout_width">170dp</item>
+        <item name="android:layout_height">130dp</item>
+        <item name="android:layout_marginTop">14dp</item>
+        <item name="android:layout_marginLeft">14dp</item>
+    </style>
+    <style name="layoutTextViewFood">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">215dp</item>
+        <item name="android:layout_marginTop">24dp</item>
+    </style>
+    <style name="LayoutButtonFood">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_marginLeft">215dp</item>
+        <item name="android:layout_marginTop">84dp</item>
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:background">@color/anotherColor</item>
+        <item name="android:text">@string/pesan</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="LayoutTextRecommendedFood">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/colorSecondary</item>
+    </style>
+    <style name="LayoutTextRecipe">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginTop">220dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+</resources>

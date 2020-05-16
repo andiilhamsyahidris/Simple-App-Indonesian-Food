@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:card_iew="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_iew:cardCornerRadius="4dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSecondary">
+            <ImageView
+                android:id="@+id/imagePapuaFood"
+                style="@style/LayoutImageFood"/>
+            <TextView
+                android:id="@+id/namePapuaFood"
+                style="@style/layoutTextViewFood"/>
+            <Button
+                android:id="@+id/btnPapuaFood"
+                style="@style/LayoutButtonFood"/>
+        </FrameLayout>
+    </ScrollView>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    tools:context=".JawaFood">
+    
+    <ImageView
+        style="@style/LayoutImageParentActivity"
+        android:src="@drawable/rumahjawa"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:id="@+id/textJawaFood"
+        style="@style/LayoutTextRecommendedFood"
+        android:text="@string/jawa_recommended_food" />
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cvFoodJawa"
+        style="@style/LayoutCardView"
+        tools:listitem="@layout/cardviewjawa"/>
+
+</LinearLayout>

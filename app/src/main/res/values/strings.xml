@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Indonesia Food</string>
+    <string name="picture">picture</string>
+    <string name="buttonsumatera">buttonSumatera</string>
+    <string name="buttonJawa">buttonJawa</string>
+    <string name="buttonkalimantan">buttonKalimantan</string>
+    <string name="buttonsulawesi">buttonSulawesi</string>
+    <string name="buttnpapua">buttnPapua</string>
+    <string name="recommended_food">Recommended Food</string>
+    <string name="pesan">Pelajari</string>
+    <string name="sulawesi_recommended_food">Sulawesi Recommended Food</string>
+    <string name="jawa_recommended_food">Jawa Recommended Food</string>
+    <string name="sumatera_recommended_food">Sumatera Recommended Food</string>
+    <string name="kalimantan_recommended_food">Kalimantan Recommended Food</string>
+    <string name="papua_recommended_food">Papua Recommended Food</string>
+    <string name="imagebutton">imageButton</string>
+</resources>

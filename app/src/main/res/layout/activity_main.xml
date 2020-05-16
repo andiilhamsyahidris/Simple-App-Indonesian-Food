@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="265dp"
+            android:background="@drawable/restaurant"
+            android:contentDescription="@string/picture"/>
+        <ImageButton
+            android:id="@+id/btnAboutMe"
+            android:background="@color/colorAboutMe"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:src="@drawable/aboutme"
+            android:scaleType="fitXY"
+            tools:ignore="RtlHardcoded"
+            android:contentDescription="@string/imagebutton" />
+    </FrameLayout>
+    <TableLayout
+        style="@style/LayoutTable">
+        <TableRow tools:ignore="UselessParent">
+            <FrameLayout
+                style="@style/LayoutTable">
+                <ImageButton
+                    style="@style/LayoutButton"
+                    android:id="@+id/btnSumatera"
+                    android:layout_marginLeft="10dp"
+                    android:contentDescription="@string/buttonsumatera"
+                    android:layout_marginStart="10dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/LayoutImage"
+                    android:src="@drawable/sumatera"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginStart="15dp"/>
+            </FrameLayout>
+            <FrameLayout
+                style="@style/LayoutTable">
+                <ImageButton
+                    android:id="@+id/btnJawa"
+                    style="@style/LayoutButton"
+                    android:contentDescription="@string/buttonJawa"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/LayoutImage"
+                    android:src="@drawable/jawa" />
+            </FrameLayout>
+            <FrameLayout
+                style="@style/LayoutTable">
+                <ImageButton
+                    android:id="@+id/btnKalimantan"
+                    style="@style/LayoutButton"
+                    android:contentDescription="@string/buttonkalimantan"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/LayoutImage"
+                    android:src="@drawable/kalimantan" />
+            </FrameLayout>
+            <FrameLayout
+                style="@style/LayoutTable">
+                <ImageButton
+                    android:id="@+id/btnSulawesi"
+                    style="@style/LayoutButton"
+                    android:contentDescription="@string/buttonsulawesi"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/LayoutImage"
+                    android:src="@drawable/sulawesi" />
+            </FrameLayout>
+            <FrameLayout
+                style="@style/LayoutTable">
+                <ImageButton
+                    android:id="@+id/btnPapua"
+                    style="@style/LayoutButton"
+                    android:contentDescription="@string/buttnpapua"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    style="@style/LayoutImage"
+                    android:src="@drawable/papua"/>
+            </FrameLayout>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:id="@+id/textRecommendedFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/recommended_food"
+        android:textSize="20sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginStart="20dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/cvRecommendedFood"
+        style="@style/LayoutCardView"
+        tools:listitem="@layout/cardviewrecommendedfood" />
+
+</LinearLayout>
